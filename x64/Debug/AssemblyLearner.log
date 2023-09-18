@@ -1,4 +1,2 @@
-﻿  Main.cpp
-C:\Users\jgiro\Desktop\Juan\Uni\c++\AssemblyLearner\src\Main.cpp(12,16): warning C4101: 'controller': variable local sin referencia
-C:\Users\jgiro\Desktop\Juan\Uni\c++\AssemblyLearner\src\Main.cpp(10,15): warning C4101: 'simulator': variable local sin referencia
+﻿  Simulator.cpp
   AssemblyLearner.vcxproj -> C:\Users\jgiro\Desktop\Juan\Uni\c++\AssemblyLearner\x64\Debug\AssemblyLearner.exe

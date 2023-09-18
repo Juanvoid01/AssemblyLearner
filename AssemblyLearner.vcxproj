@@ -143,14 +143,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\model\Alu.cpp" />
+    <ClCompile Include="src\model\RegisterBank.cpp" />
+    <ClCompile Include="src\model\Ram.cpp" />
     <ClCompile Include="src\model\Simulator.cpp" />
     <ClCompile Include="src\Controller.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\view\MainView.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\model\Block.h" />
-    <ClInclude Include="src\model\Instruction.h" />
+    <ClInclude Include="src\model\Alu.hpp" />
+    <ClInclude Include="src\model\instructions\ArithmeticInstruction.hpp" />
+    <ClInclude Include="src\model\instructions\BitwiseInstruction.hpp" />
+    <ClInclude Include="src\model\instructions\BranchInstruction.hpp" />
+    <ClInclude Include="src\model\instructions\CompareInstruction.hpp" />
+    <ClInclude Include="src\model\instructions\LoadInstruction.hpp" />
+    <ClInclude Include="src\model\instructions\StoreInstruction.hpp" />
+    <ClInclude Include="src\model\RegisterBank.hpp" />
+    <ClInclude Include="src\model\Ram.hpp" />
+    <ClInclude Include="src\model\Block.hpp" />
+    <ClInclude Include="src\model\instructions\Instruction.hpp" />
     <ClInclude Include="src\model\SimulatorObserver.hpp" />
     <ClInclude Include="src\Controller.hpp" />
     <ClInclude Include="src\model\Simulator.hpp" />

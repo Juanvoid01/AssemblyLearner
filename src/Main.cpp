@@ -7,7 +7,7 @@
 
 int main(int argc, char* args[]) {
 
-    Simulator simulator;
+    Simulator simulator(100);
     MainView mainView;
     Controller controller;
 
